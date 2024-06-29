@@ -1,4 +1,15 @@
 package Domain.ValueObject
 
-class TaskDeedLine {
+import java.util.Date
+
+class TaskDeadLine {
+    private val deadLine: Date?
+
+    constructor(deadLine: Date?) {
+        this.deadLine = deadLine
+    }
+
+    public fun deadLine(): Date? {
+        return this.deadLine
+    }
 }
