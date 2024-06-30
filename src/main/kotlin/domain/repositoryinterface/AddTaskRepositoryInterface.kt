@@ -1,4 +1,9 @@
 package domain.repositoryinterface
 
-class AddTaskRepositoryInterface {
+import domain.entity.AddTaskEntity
+
+interface AddTaskRepositoryInterface {
+    public fun addTask(
+        task: AddTaskEntity
+    ): AddTaskEntity;
 }

@@ -1,4 +1,7 @@
-package domain.Entity
+package domain.entity
 
 class ShowAllTaskEntityCollection {
+    constructor(
+
+    )
 }
