@@ -1,4 +1,4 @@
-package Domain.ValueObject
+package domain.valueobject
 
 
 class TaskId {

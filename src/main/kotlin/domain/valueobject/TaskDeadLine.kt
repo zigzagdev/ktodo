@@ -1,4 +1,4 @@
-package Domain.ValueObject
+package domain.valueobject
 
 import java.util.Date
 
