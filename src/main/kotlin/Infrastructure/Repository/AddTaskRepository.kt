@@ -14,9 +14,9 @@ class AddTaskRepository : AddTaskRepositoryInterface {
         return AddTaskEntityFactory.build(taskData)
     }
 
-    private fun getTaskValue(): Array<String?>
+    private fun getTaskValue(): Array<Any?>
     {
-        val taskArray = arrayOf(
+        val taskArray = arrayOf<Any?>(
             this.task?.TaskId() ?:0,
             this.task?.TaskName(). toString(),
             this.task?.TaskContent(). toString(),
