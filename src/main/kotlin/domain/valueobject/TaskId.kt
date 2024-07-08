@@ -1,14 +1,8 @@
 package domain.valueobject
 
 
-class TaskId {
-    private val id: Number?
-
-    constructor(id: Number?) {
-        this.id = id
-    }
-
-    public fun getId(): Number? {
+class TaskId (val id: Number?) {
+    fun getTaskId(): Number? {
         return this.id
     }
 }

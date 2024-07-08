@@ -1,13 +1,7 @@
 package domain.valueobject
 
-class TaskDeletedAt {
-    private val deletedAt: String?
-
-    constructor(deletedAt: String?) {
-        this.deletedAt = deletedAt
-    }
-
-    public fun deletedAt(): String? {
+class TaskDeletedAt (val deletedAt: String?) {
+    fun deletedAt(): String? {
         return this.deletedAt
     }
 }

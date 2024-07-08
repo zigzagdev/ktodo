@@ -1,13 +1,7 @@
 package domain.valueobject
 
-class TaskName {
-    private val name: String?
-
-    constructor(name: String?) {
-        this.name = name
-    }
-
-    public fun getName(): String? {
+class TaskName (val name: String?) {
+    fun getTaskName(): String? {
         return this.name
     }
 }
