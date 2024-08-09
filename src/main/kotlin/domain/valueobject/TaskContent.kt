@@ -5,6 +5,3 @@ class TaskContent(val content: String) {
         return this.content
     }
 }
-
-
-
